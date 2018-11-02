@@ -1,0 +1,30 @@
+name: 哈哈哈2
+age: 23
+content: "name:${name},age:${age}"
+
+student:
+  name: 我没有三颗心脏
+  age: 24
+  
+spring:
+  mvc:
+    view:
+      prefix: /WEB-INF/views/
+      suffix: .jsp
+  thymeleaf:
+    cache: false
+    enabled: false   
+      
+  datasource:
+    url: jdbc:mysql://127.0.0.1:3306/yqy?characterEncoding=UTF-8
+    username: root
+    password: admin
+    driver-class-name: com.mysql.jdbc.Driver
+  jpa:
+    hibernate:
+      #新增数据库链接必备的参数   
+      ddl-auto: update 
+    
+    
+    
+        
